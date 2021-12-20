@@ -1,0 +1,117 @@
+:root{
+
+  /** fonts */
+  --font-family--primary: "FiraSans";
+  /** ------------------------------ */
+
+  --black: black
+  --white: white;
+
+  --text-primary: #444444;
+  --text-muted: #828698;
+  --text-disabled: #828698;
+  --stylistic: rgb(162, 35, 142);
+
+  // colors
+  --primary: 168deg  98% 35%; 
+  --primary-background: 0deg 0% 100%;
+  --secondary: 210deg 33% 96%; //gray hsl(210, 33%, 96%)
+  --secondary-background: 0deg 0% 100%;
+  --accent: 115deg 44% 45%;
+  --accent-background: 0deg 0% 100%;
+  --neutral: 0deg 0% 100%;
+  --neutral-background: 0deg 0% 100%;
+  --alert-info: 30deg 45% 45%;
+  --alert-success: 115deg 44% 45%;
+  --alert-warning: 42deg 79% 57%;
+  --alert-error: 0deg 69% 56%;
+  /** --------------- */
+
+
+
+  // daisy vars
+  --p: var(--primary); /* Primary color */
+  --pf: var(--primary); /* Primary color - focused */
+  --pc: var(--primary-background); /* Foreground content color to use on primary color */
+
+  --s: var(--secondary); /* Secondary color */
+  --sf: var(--secondary); /* Secondary color - focused */
+  --sc: var(--secondary-background); /* Foreground content color to use on secondary color */
+
+  --a: var(--accent); /* Accent color */
+  --af: var(--accent); /* Accent color - focused */
+  --ac: var(--accent-background); /* Foreground content color to use on accent color */
+
+  --n: var(--neutral); /* Neutral color */
+  --nf: var(--neutral); /* Neutral color - focused */
+  --nc: var(--neutral-background); /* Foreground content color to use on neutral color */
+
+  --in: var(--alert-info); /* Info */
+  --su: var(--alert-success); /* Success */
+  --wa: var(--alert-warning); /* Warning */
+  --er: var(--alert-error); /* Error */
+
+  /**
+  ----------------------------------------------------------------------------------------------------------------------
+   */
+
+
+  /**
+  breakpoints
+   */
+  --screen-sm: '640px';
+  --screen-md: '768px';
+  --screen-lg: '1024px';
+  --screen-xl: '1280px';
+  --screen-2xl: '1500px';
+  /**
+  ----------------------------------------------------------------------------------------------------------------------
+   */
+
+
+  /**
+  other
+   */
+  --rounded-box: 1rem;
+  --rounded-btn: 0.5rem;
+  --rounded-badge: 9999px;
+
+  --animation-btn: 0.25s;
+  --animation-input: .4s;
+
+  --padding-card: 2rem;
+
+  --btn-text-case: uppercase;
+  --btn-focus-scale: 0.95;
+
+  --navbar-padding: .5rem;
+  --border-btn: 1px;
+
+  --tab-border: 1px;
+  --tab-radius: 0.5rem;
+  --tab-spacer: 0.5rem;
+
+  --focus-ring: 2px;
+  --focus-ring-offset: 2px;
+
+  --glass-opacity: 30%;
+  --glass-border-opacity: 10%;
+  --glass-reflex-degree: 100deg;
+  --glass-reflex-opacity: 10%;
+  --glass-blur: 40px;
+  --glass-text-shadow-opacity: 5%;
+  /**
+  ----------------------------------------------------------------------------------------------------------------------
+   */
+
+  /** border */
+
+  // theme
+  --c-bg: #f3f4f4;
+  --c-primary-light: #3c5db1;
+  --c-primary: #34529d;
+  --c-primary-dark: #2b468a;
+  --c-secondary: #ffd453;
+  --f-main-family: var(--font-family--primary);
+  /** ------ */
+}
